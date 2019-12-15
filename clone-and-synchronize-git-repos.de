@@ -1,0 +1,18 @@
+#!/bin/bash
+
+name="lynis"
+
+echo $name
+git clone "https://github.com/codingspiderfox/${name}"
+cd $name
+git remote add upstream "https://github.com/CISOfy/${name}"
+cd -
+
+name="zsh-autosuggestions"
+
+echo $name
+git clone "https://github.com/codingspiderfox/${name}"
+cd $name
+git remote add upstream "https://github.com/zsh-users/${name}"
+cd -
+
